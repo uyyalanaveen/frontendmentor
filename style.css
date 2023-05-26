@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto+Mono&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+}
+.order
+{
+    padding: 7%;
+    text-align: center;
+}
+div>h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.order p{
+    font-size: large;
+    color: black;
+    
+}
+.plan-box
+{
+    margin-top: 20px;
+    background-color: hsl(225, 100%, 98%) ;
+    display: flex;
+    padding: 25px;
+    border-radius: 12px;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+.left
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    
+}
+.head{
+    position: relative;
+    left: 30px;
+    
+}
+.head>h5
+{
+    font-weight: 700;
+   
+}
+.head>p{
+    opacity: 0.5;
+    font-size: 16px;
+}
+/* .head>p>h5{
+    margin-left: 10px;
+    position: relative;
+
+} */
+.link{
+    color: rgb(21, 4, 213);
+    /* text-decoration: none; */
+    margin-left: 140px;
+    /* position: relative; */
+}
+a.btn
+{
+
+    
+    background-color:hsl(245, 75%, 52%);
+    height: 50px;
+    text-align: center;
+    font-weight: 799;
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 12px;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+.btn2
+{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: gray;
+
+}
+.btn:hover
+{
+    background-color:hsla(265, 94%, 40%, 0.6) ;
+}
+.link:hover{
+    color: hsla(265, 94%, 40%, 0.597);
+}
+.btn2:hover
+{
+    color: black;
+
+}
